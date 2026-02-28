@@ -1,22 +1,27 @@
 name: jixiaxingliang
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 5/6 * * *'
+    - cron: '7 3/6 * * *'
 
-jobs:  # 8126
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: jixiaxingliang
         env:
-          b7: ${{ secrets.b7 }}
+          vmavu034: ${{ secrets.vmavu034 }}
         run: |
-          echo $b7 | jq -r .a3 | /bin/bash
-          echo $m16 | jq -r .cdmok23354 | /bin/bash
-          echo $lv7203 | jq -r .iorkj532 | /bin/bash
-          echo $i3111 | jq -r .x3 | /bin/bash
-          echo $wcev3122 | jq -r .agm86337 | /bin/bash
+          echo $vmavu034 | jq -r .upf7 | /bin/bash
+          echo $qhv19 | jq -r .kqnj7403 | /bin/bash
+          echo $fgl13 | jq -r .zvk30166 | /bin/bash
+          echo $wpza499 | jq -r .iede6 | /bin/bash
+          echo $m8758 | jq -r .wzd0889 | /bin/bash
+          echo $iui36 | jq -r .l1968 | /bin/bash
+          echo $th1869 | jq -r .ms537 | /bin/bash
+          echo $jvih0831 | jq -r .smuxk97521 | /bin/bash
+          echo $oxlm6 | jq -r .uigk2 | /bin/bash
+          echo $qsy8097 | jq -r .b56 | /bin/bash
+          echo $twz27072 | jq -r .nsj95158 | /bin/bash
 
